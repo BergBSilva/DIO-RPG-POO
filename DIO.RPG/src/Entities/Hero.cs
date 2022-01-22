@@ -28,7 +28,7 @@ namespace DIO.RPG.src.Entities
 
         public override string ToString()
         {
-            return "Name: " + this.Name + "\nLevel: " + this.Level + "\nHero Type: " + this.HeroType;
+            return "Name: " + this.Name +"\nHealth: " + this.Health + "\nLevel: " + this.Level + "\nHero Type: " + this.HeroType;
         }
 
         public virtual string Attack()

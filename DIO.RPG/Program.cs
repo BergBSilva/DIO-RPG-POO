@@ -7,6 +7,7 @@ Thief erik = new Thief("Erik", 80, 1, "Thief");
 
 WriteLine("######################## DRAGON QUEST ##############################");
 
+WriteLine($@"{arus}");
 WriteLine($@"Ataque do {arus.Name}");
 WriteLine($@"{arus.Attack()}");
 WriteLine($@"{arus.Attack(4)}");
@@ -14,6 +15,7 @@ WriteLine($@"{arus.Attack(8)}");
 
 WriteLine("\n");
 
+WriteLine($@"{aamon}");
 WriteLine($@"Ataque do {aamon.Name}");
 WriteLine($@"{aamon.Attack()}");
 WriteLine($@"{aamon.Attack(4)}");
@@ -21,6 +23,7 @@ WriteLine($@"{aamon.Attack(8)}");
 
 WriteLine("\n");
 
+WriteLine($@"{erik}");
 WriteLine($@"Ataque do {erik.Name}");
 WriteLine($@"{erik.Attack()}");
 WriteLine($@"{erik.Attack(4)}");
